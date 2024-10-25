@@ -6,8 +6,8 @@ export interface Articulos {
 }
 
 export interface Numero {
-  tipo: string;
-  celular: number;
+  fijo: string;
+  celular: string;
 }
 export interface Contacto {
   id: string;
@@ -26,4 +26,10 @@ export interface Empresa {
   direccion: string;
   numero: Numero;
   sitioWeb: string;
+}
+
+export interface MenuItem {
+  nombre: string;
+  icon : string;
+  reouterLink : string;
 }

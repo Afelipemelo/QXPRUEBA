@@ -1,0 +1,68 @@
+
+.logo-qx{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.cont-button{
+  display: flex;
+}
+ .button{
+  background: none;
+  border: none;
+  padding-left: 13px;
+}
+ .main-menu:hover, nav.main-menu.expanded {
+ width:250px;
+ overflow:hidden;
+ opacity:1;
+ }
+
+ .main-menu {
+ background:#302735;
+ position:absolute;
+ top:0;
+ bottom:0;
+ height:100%;
+ left:0;
+ width:55px;
+ overflow:hidden;
+ -webkit-transition:width .2s linear;
+ transition:width .2s linear;
+   opacity:1;
+ }
+
+ .main-menu>ul {
+ margin:7px 0;
+ }
+
+ .main-menu li {
+ position:relative;
+ display:block;
+ width:250px;
+ margin-top: 20px;
+ cursor: pointer;
+ }
+ .main-menu li>a {
+ position:relative;
+ width:255px;
+ display:table;
+ border-collapse:collapse;
+ border-spacing:0;
+ color: white;
+ font-size: 15px;
+ text-decoration:none;
+
+ }
+
+ .main-menu .nav-text {
+ position:relative;
+ display:table-cell;
+ vertical-align:middle;
+ }
+
+ nav ul,nav li {
+ outline:0;
+ margin:0;
+ padding:0;
+ text-transform: uppercase;
+ }

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
+import { Empresa } from '../../interface/paginaprincipal.interfaces';
 
 @Component({
   selector: 'pagina-principal-header',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+
+  @Input()
+  public nombreSeccion : string = '';
 
 }

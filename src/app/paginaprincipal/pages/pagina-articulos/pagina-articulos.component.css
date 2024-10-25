@@ -1,0 +1,17 @@
+
+.contenedor-articulo{
+  padding: 20px;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c9c9c9;
+}
+.info-contacto{
+  margin-left: 5%;
+  width: 40%;
+}
+.info-articulo{
+  width: 48%;
+  background: white;
+}
+
