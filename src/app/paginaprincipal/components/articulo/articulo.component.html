@@ -1,1 +1,15 @@
-<p>articulo works!</p>
+<div>
+
+  <div class="cont-img">
+    <img src="../../../../assets/img/resource-1.png" alt="" >
+  </div>
+  <div class="contact-articulos">
+    <div class="contact-card" *ngFor="let articulo of articulos">
+      <div class="cont-img-articulo">
+        <img src={{articulo.imagen}} >
+      </div>
+      <h6>{{articulo.titulo}}</h6>
+      <p>{{articulo.descripcion}}</p>
+    </div>
+  </div>
+</div>

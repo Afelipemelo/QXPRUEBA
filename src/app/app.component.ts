@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+
+  public nombreSeccion: string= '';
   title = 'pruebaqx';
+
+  getNombreSeccion(nombre : any):void{
+    this.nombreSeccion = nombre
+    console.log(this.nombreSeccion)
+  }
 }

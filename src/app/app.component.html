@@ -1,2 +1,3 @@
-<h1>QUIPUX</h1>
-<app-home-page></app-home-page>
+<pagina-principal-navbar (nombreSeccion) ="getNombreSeccion($event)"></pagina-principal-navbar>
+<pagina-principal-header [nombreSeccion]="nombreSeccion"></pagina-principal-header>
+<router-outlet></router-outlet>

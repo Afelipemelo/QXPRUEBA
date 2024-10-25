@@ -1,0 +1,44 @@
+
+
+.wrapper{
+  background-color: white;
+  padding-left: 50px;
+  margin: 0px;
+  height: 60px
+}
+.wrapper .nav-links{
+  display: inline-flex;
+  margin: 15px;
+}
+.nav-links li{
+  list-style: none;
+  padding-bottom: 15px;
+}
+.nav-links li a{
+  color: #7b7979;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.nav-links li a:hover{
+  color: #119fe8 ;
+}
+.nav-links li:hover{
+  border-bottom: 2px solid #119fe8 ;
+}
+.nav-links .mobile-item{
+  display: none;
+}
+.nav-links .drop-menu{
+  position: absolute;
+  width: 180px;
+  line-height: 45px;
+  opacity: 0;
+}
+
+.nav-links span{
+  margin-top: 5px;
+  font-size: large;
+}
