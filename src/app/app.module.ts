@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http'
 import { AppComponent } from './app.component';
+import { PaginaPrinipal } from './paginaprincipal/paginaprincipal.module';
 
 
 @NgModule({
   declarations: [
     AppComponent
   ],
+  imports: [
+    PaginaPrinipal,
+],
   providers: [],
   bootstrap: [AppComponent]
 })
