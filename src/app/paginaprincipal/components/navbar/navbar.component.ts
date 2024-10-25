@@ -14,8 +14,8 @@ export class NavbarComponent implements OnInit {
   constructor(private QxService : QxService){}
   public menuItems : MenuItem[] = [];
 
-  enviarMensaje(nombre : string) :void{
-    this.QxService.enviarMensaje(nombre)
+  getSeccion(nombre : string) :void{
+    this.QxService.getNombreSeccion(nombre)
   }
 
   ngOnInit(){

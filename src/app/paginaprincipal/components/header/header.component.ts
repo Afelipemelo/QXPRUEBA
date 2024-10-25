@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   constructor(private QxService : QxService){}
 
   ngOnInit() {
-    this.QxService.mensaje$.subscribe((nombreSeccion) => {
+    this.QxService.nombreSeccion$.subscribe((nombreSeccion) => {
       this.nombreSeccion = nombreSeccion;
     });
   }

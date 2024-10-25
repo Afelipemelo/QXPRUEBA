@@ -1,5 +1,5 @@
 
-.cont-img{
+.container-img{
   height: 180px;
   margin-bottom: 10px;
   display: flex;
@@ -9,32 +9,35 @@
   display: flex;
   justify-content: center;
 }
-.contact-articulos{
+.container-articulos{
   height:325px;
-  overflow-y: auto;   /* Scroll vertical si el contenido es mayor */
-  overflow-x: hidden; /* Sin scroll horizontal */
+  overflow-y: auto;
+  overflow-x: hidden;
   display: grid;
   row-gap: 10px;
   grid-template-columns: auto auto auto;
 }
-.contact-articulos::-webkit-scrollbar {
+.container-articulos::-webkit-scrollbar {
   border-radius: 10px;
   width: 8px;
 }
-.contact-articulos::-webkit-scrollbar-thumb {
+.container-articulos::-webkit-scrollbar-thumb {
   background-color: #919191;
 }
-.contact-card img{
+.container-card img{
   height:80px;
   width:80px;
   border-radius: 50px;
   border: 1px solid rgb(170, 170, 170);
 }
-.contact-card h6 {
+.container-card h6 {
  text-align: center;
  font-size: medium;
 }
-.contact-card p {
+.container-card p {
   text-align: center;
   font-size: small;
+}
+.container-img-articulo{
+  text-align: center;
 }

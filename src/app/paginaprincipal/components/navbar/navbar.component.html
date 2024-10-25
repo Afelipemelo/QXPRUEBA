@@ -1,6 +1,6 @@
 
-<nav class="main-menu">
-  <div class="cont-button">
+<nav class="container-menu">
+  <div class="container-button">
     <button
     class="button"
     >
@@ -12,7 +12,7 @@
 
  <ul class="nadvar">
   <li *ngFor="let item of menuItems" >
-    <a [routerLink]="[ '/', item.reouterLink]" routerLinkActive="active" (click)="enviarMensaje(item.nombre)">
+    <a [routerLink]="[ '/', item.reouterLink]" routerLinkActive="active" (click)="getSeccion(item.nombre)">
       <span class="nav-text"><i class={{item.icon}} style="font-size: 25px; margin-left: 15px; margin-right: 15px;"></i> {{item.nombre}}</span>
       <span><i class="bi bi-chevron-down" ></i></span>
     </a>

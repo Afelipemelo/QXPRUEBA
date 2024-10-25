@@ -1,0 +1,145 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+  margin-left: 80px;
+}
+
+.search-section {
+  width: 60%;
+}
+
+.search-section h1 {
+  font-size: 36px;
+  color: #0072ce;
+  margin-bottom: 10px;
+}
+
+.search-section p {
+  margin-bottom: 20px;
+  color: #707070;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.search-bar select, .search-bar input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar select {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.search-bar input {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  background-color: #0072ce;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: static;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #0072ce;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color: white;
+  border: 1px solid #8bfd44;
+  color: #45871d;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.side-section {
+  width: 35%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.side-section img {
+  width: 80%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.side-section h2 {
+  font-size: 24px;
+  color: #0072ce;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 255, 0.118);
+
+
+}
+
+.side-section p {
+  color: #707070;
+  font-size: 14px;
+}
+
