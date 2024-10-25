@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Input, OnInit } from '@angular/core';
 import { MenuItem } from '../../interface/paginaprincipal.interfaces';
+import { QxService } from '../../services/qxprueba.service';
 
 
 @Component({
@@ -10,14 +11,11 @@ import { MenuItem } from '../../interface/paginaprincipal.interfaces';
 })
 export class NavbarComponent implements OnInit {
 
-
-  @Input()
-  public nombreSeccion: EventEmitter<string> = new EventEmitter();
-
+  constructor(private QxService : QxService){}
   public menuItems : MenuItem[] = [];
 
   enviarMensaje(nombre : string) :void{
-    this.nombreSeccion.emit(nombre);
+    this.QxService.enviarMensaje(nombre)
   }
 
   ngOnInit(){
