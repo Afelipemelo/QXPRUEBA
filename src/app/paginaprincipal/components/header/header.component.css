@@ -1,12 +1,14 @@
 
 
-.wrapper{
+.container{
   background-color: white;
-  padding-left: 50px;
-  margin: 0px;
-  height: 60px
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  max-width: unset;
+  top: 0
 }
-.wrapper .nav-links{
+.container .nav-links{
   display: inline-flex;
   margin: 15px;
 }
@@ -27,15 +29,6 @@
 }
 .nav-links li:hover{
   border-bottom: 2px solid #119fe8 ;
-}
-.nav-links .mobile-item{
-  display: none;
-}
-.nav-links .drop-menu{
-  position: absolute;
-  width: 180px;
-  line-height: 45px;
-  opacity: 0;
 }
 
 .nav-links span{

@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { ArticuloComponent } from './components/articulo/articulo.component';
-import { ColaboradoresComponent } from './components/colaboradores/colaboradores.component';
 import { EmpresasComponent } from './components/empresas/empresas.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -21,7 +20,6 @@ import { PaginaEmpresasComponent } from './pages/pagina-empresas/pagina-empresas
     PaginaArticulosComponent,
     PaginaEmpresasComponent,
     ArticuloComponent,
-    ColaboradoresComponent,
     EmpresasComponent,
     FooterComponent,
     HeaderComponent,
@@ -38,7 +36,8 @@ import { PaginaEmpresasComponent } from './pages/pagina-empresas/pagina-empresas
     PaginaArticulosComponent,
     PaginaEmpresasComponent,
     NavbarComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class PaginaPrinipal { }

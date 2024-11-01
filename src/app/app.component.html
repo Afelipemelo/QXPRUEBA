@@ -1,3 +1,23 @@
-<pagina-principal-navbar (nombreSeccion) ="getNombreSeccion($event)"></pagina-principal-navbar>
-<pagina-principal-header [nombreSeccion]="nombreSeccion"></pagina-principal-header>
-<router-outlet></router-outlet>
+
+<div class="container">
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <pagina-principal-navbar (nombreSeccion) ="getNombreSeccion($event)"></pagina-principal-navbar>
+  </div>
+
+  <!-- Navbar -->
+
+  <div class="navbar">
+    <pagina-principal-header  [nombreSeccion]="nombreSeccion"></pagina-principal-header>
+  </div>
+
+  <!-- Contenido Principal -->
+  <div class="main">
+    <router-outlet></router-outlet>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+      <pagina-principal-footer></pagina-principal-footer>
+  </div>
+</div>

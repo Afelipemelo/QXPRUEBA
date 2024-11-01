@@ -1,15 +1,30 @@
-<div>
-
-  <div class="cont-img">
-    <img src="../../../../assets/img/resource-1.png" alt="" >
-  </div>
-  <div class="contact-articulos">
-    <div class="contact-card" *ngFor="let articulo of articulos">
-      <div class="cont-img-articulo">
-        <img src={{articulo.imagen}} >
+<div class="container">
+    <div id="carouselExampleFade" class="carousel slide container-carousel " data-ride="carousel" >
+      <div class="carousel-inner ">
+        <div class="carousel-item active container-imagen" >
+          <img src="../../../../assets/img/resource-1.png"  height="100%" width="280px" class="d-block">
+        </div>
+        <div class="carousel-item container-imagen" >
+          <img src="../../../../assets/img/resource-1.png" height="100%" width="280px" class="d-block">
+        </div>
+        <div class="carousel-item container-imagen" >
+          <img src="../../../../assets/img/resource-1.png"  height="100%" width="280px" class="d-block ">
+        </div>
       </div>
-      <h6>{{articulo.titulo}}</h6>
-      <p>{{articulo.descripcion}}</p>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+      </button>
+    </div>
+  <div class="container-articulos">
+    <div class="card  text-center container-imagen" *ngFor="let articulo of articulos">
+      <img src={{articulo.imagen}} class="card-img-top" style="width: 70px; height: 70px; margin-top: 5px; border-radius: 50%; border: 1px solid rgb(118, 118, 118);">
+      <div class="card-body">
+        <h5 class="card-title" style="font-size: smaller;">{{articulo.titulo}}</h5>
+        <p class="card-text" style="font-size: small;">{{articulo.descripcion}}</p>
+      </div>
     </div>
   </div>
 </div>

@@ -1,21 +1,19 @@
-.cont-contacto{
+.container-contacto{
   padding: 10px;
   background: white;
   width: 100%;
   height: 100%;
 }
-.cont-list {
-  display: flex;
-  text-align: center;
-  max-width: 800px;
-  margin: auto;
-  margin-top: 20px;
+.container-list {
+  display: grid;
+  grid-template-columns:46% 8% 46%;
+  justify-items: center;
+  margin-top: 40px;
 }
-
-.cont-list li{
+.container-list li{
   margin-top: 30px;
 }
-.cont-list ul{
+.container-list ul{
   list-style: none;
   padding: 0;
 }
@@ -25,7 +23,8 @@ h3 {
   font-size: 18px;
 }
 .info-section {
-  margin-bottom: 20px;
+  justify-items: center;
+  margin-bottom: 50px;
 }
 
 .line {

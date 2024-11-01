@@ -1,40 +1,41 @@
-<div class="cont-contacto">
-
+<div class="container-contacto">
   <h5>INFORMACIÓN DEL CONTACTO</h5>
-
-  <div class="cont-list" *ngFor="let contacto of contactos">
-
-    <!-- Primera columna -->
-    <ul >
-      <li class="info-section">
-        <h6>Dirección</h6>
-        <p>{{contacto.direccion}}</p>
-      </li>
-      <li class="info-section">
-        <h6>Correo electrónico</h6>
-        <p>{{contacto.correo}}</p>
-      </li>
-      <li class="info-section">
-        <h6>Sitio Web</h6>
-        <p>{{contacto.sitioWeb}}</p>
-      </li>
-      <li class="info-section">
-        <h6>Red social</h6>
-        <p>{{contacto.redSocial}}</p>
-      </li>
-    </ul>
+  <div class="container-list" *ngFor="let contacto of contactos">
+    <div >
+      <ul >
+        <li class="info-section">
+          <h6>Dirección</h6>
+          <p>{{contacto.direccion}}</p>
+        </li>
+        <li class="info-section">
+          <h6>Correo electrónico</h6>
+          <p>{{contacto.correo}}</p>
+        </li>
+        <li class="info-section">
+          <h6>Sitio Web</h6>
+          <p>{{contacto.sitioWeb}}</p>
+        </li>
+        <li class="info-section">
+          <h6>Red social</h6>
+          <p>{{contacto.redSocial}}</p>
+        </li>
+      </ul>
+    </div>
     <div class="line"></div>
-    <!-- Segunda columna -->
-    <ul >
-      <li class="info-section">
-        <h6>Dirección de correspondencia de correo</h6>
-        <p>{{contacto.DireccionCorrespondenciaCorreo}}</p>
-      </li>
-      <li class="info-section">
-        <h6>Número de teléfonos</h6>
-        <p>{{contacto.Numero.fijo}}</p>
-        <p>{{contacto.Numero.celular}}</p>
-      </li>
-    </ul>
+    <div>
+      <ul >
+        <li class="info-section">
+          <h6>Dirección de correspondencia de correo</h6>
+          <p>{{contacto.DireccionCorrespondenciaCorreo}}</p>
+        </li>
+        <li class="info-section">
+          <h6>Número de teléfonos</h6>
+          <p>{{contacto.Numero.fijo}}</p>
+          <p>{{contacto.Numero.celular}}</p>
+        </li>
+      </ul>
+    </div>
+
+
   </div>
 </div>
