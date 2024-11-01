@@ -9,16 +9,12 @@ import { QxService } from '../../services/qxprueba.service';
 })
 export class HeaderComponent implements OnInit {
 
-  public nombreSeccion : string = '';
+  @Input()
+  nombreSeccion : string = '';
 
   constructor(private QxService : QxService){}
 
   ngOnInit() {
-    this.QxService.nombreSeccion$.subscribe((nombreSeccion) => {
-      this.nombreSeccion = nombreSeccion;
-    });
-  }
-  resetNombre():void{
-    this.QxService.resetNombre();
+
   }
 }

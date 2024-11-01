@@ -36,7 +36,8 @@ import { PaginaEmpresasComponent } from './pages/pagina-empresas/pagina-empresas
     PaginaArticulosComponent,
     PaginaEmpresasComponent,
     NavbarComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class PaginaPrinipal { }

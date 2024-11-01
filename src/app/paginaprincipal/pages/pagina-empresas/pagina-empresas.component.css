@@ -1,16 +1,20 @@
 
 .contenedor-empresa{
   padding: 20px;
-  height: 90vh;
-  display: flex;
-  justify-content: space-between;
-  background-color: #e3e3e3;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns:40% 60%;
+  background-color: #ddd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: 15px;
 }
 .info-empresa{
-  margin-left: 5%;
-  width: 32%;
+  width: 100%;
 }
 .info-contacto{
-  width: 50%;
+  width: 100%;
 }
 

@@ -1,17 +1,21 @@
 
 .contenedor-articulo{
   padding: 20px;
-  height: 90vh;
-  display: flex;
-  justify-content: space-between;
-  background-color: #c9c9c9;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns:40% 60%;
+  background-color: #ddd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: 15px;
 }
 .info-contacto{
-  margin-left: 5%;
-  width: 40%;
+  width: 100%;
+  position: relative;
 }
 .info-articulo{
-  width: 48%;
-  background: white;
+  width: 100%;
 }
 

@@ -11,7 +11,6 @@ export class AppComponent {
   title = 'pruebaqx';
 
   getNombreSeccion(nombre : any):void{
-    this.nombreSeccion = nombre
-    console.log(this.nombreSeccion)
+    this.nombreSeccion = nombre;
   }
 }
